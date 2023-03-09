@@ -10,6 +10,6 @@ public class Main {
     BookShelf bs1 = new BookShelf(10);
     bs1.appendBook(b1);
     Book result = bs1.getBookAt(0);
-    System.out.println(result.getName);
+    System.out.println(result.getName());
   }
 }
