@@ -1,6 +1,6 @@
 package ch01.practice;
 
-public class BookShelf {
+public class BookShelf implements Iterable<Book>{
   private Book[] books; // 배열을 선언
   private int last = 0; // 현재 마지막에 꽂힌 위치
 
@@ -18,6 +18,17 @@ public class BookShelf {
   // 책 가져오는 메소드
   public Book getBookAt(int index) {
     return books[index];
+  }
+
+  //책 갯수를 반환하는 메소드
+  public int getLength() {
+    return last;
+  }
+
+  //자신의 iterator를 반환하는 메소드
+  @Override
+  public BookShelfIterator iterator(){
+    return new BookShelfIterator(this);
   }
 
 }
