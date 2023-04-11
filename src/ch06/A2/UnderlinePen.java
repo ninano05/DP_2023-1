@@ -9,7 +9,7 @@ public class UnderlinePen implements Product {
         this.ulchar = ulchar;
     }
 
-    // 복사 생성자 
+    // 복사 생성자 -> 인수로 받은 요소를 그대로 변수에 복사...!
     public UnderlinePen(UnderlinePen prototype) {
         this.ulchar = prototype.ulchar;
     }

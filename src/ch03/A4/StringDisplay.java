@@ -29,7 +29,7 @@ public class StringDisplay implements AbstractDisplay {
     private void printLine() {
         System.out.print("+");
         for (int i = 0; i < width; i++) {
-            System.out.print("-");
+            System.out.print("=");
         }
         System.out.println("+");
     }

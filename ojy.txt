@@ -1,0 +1,8 @@
+#written by FileProperties
+#Wed Mar 29 15:52:05 KST 2023
+Year=2023
+BornYear=2002
+width=640
+StudentId=20210928
+Name=ojy
+Location=Boryeong
